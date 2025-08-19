@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurangtips i Stockholm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Stockholm Dining</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#tips">Restaurangtips</a></li>
+                <li><a href="#about">Om oss</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Upptäck Stockholms Bästa Restauranger</h2>
+            <p>Från exklusiva restauranger till gömda pärlor. Vi har tipsen för dig!</p>
+            <a href="#tips" class="btn">Se våra tips</a>
+        </div>
+    </section>
+
+    <section id="tips" class="restaurants">
+        <h2>Våra Restaurangtips</h2>
+        <div class="restaurant-list">
+            <div class="restaurant">
+                <img src="restaurant1.jpg" alt="Restaurang 1">
+                <div class="restaurant-info">
+                    <h3>Frantzén</h3>
+                    <p>En trestjärnig Michelin-restaurang som erbjuder en upplevelse utöver det vanliga.</p>
+                    <a href="https://www.frantzen.se" target="_blank" class="btn">Läs mer</a>
+                </div>
+            </div>
+            <div class="restaurant">
+                <img src="restaurant2.jpg" alt="Restaurang 2">
+                <div class="restaurant-info">
+                    <h3>Oaxen Krog</h3>
+                    <p>En hållbar fine dining-upplevelse på Djurgården med lokala råvaror i fokus.</p>
+                    <a href="https://www.oaxenkrog.se" target="_blank" class="btn">Läs mer</a>
+                </div>
+            </div>
+            <div class="restaurant">
+                <img src="restaurant3.jpg" alt="Restaurang 3">
+                <div class="restaurant-info">
+                    <h3>Vete-Katten</h3>
+                    <p>En klassisk konditori och café som har funnits i över hundra år – en smakupplevelse för alla sinnen.</p>
+                    <a href="https://www.vetekatten.se" target="_blank" class="btn">Läs mer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Om oss</h2>
+        <p>Vi är ett team av matälskare och restaurangentusiaster som vill dela våra bästa tips för restauranger i Stockholm. Vi har testat och granskat de bästa platserna så att du kan få en unik upplevelse varje gång du äter ute.</p>
+    </section>
+
+    <section id="kontakt" class="kontakt">
+        <h2>Kontakta oss</h2>
+        <form id="kontaktForm">
+            <input type="text" id="name" placeholder="Ditt namn" required>
+            <input type="email" id="email" placeholder="Din e-post" required>
+            <textarea id="message" placeholder="Ditt meddelande" required></textarea>
+            <button type="submit" class="btn">Skicka meddelande</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Stockholm Dining. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
